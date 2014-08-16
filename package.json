@@ -1,0 +1,34 @@
+{
+  "name": "garage-door-js",
+  "version": "0.0.0",
+  "description": "A connected garage application, running on Raspberry Pi, NodeJS",
+  "main": "main.js",
+  "dependencies": {
+    "debug": "^1.0.4",
+    "pi-gpio": "0.0.6",
+    "when": "^3.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/four43/garage-door-js.git"
+  },
+  "keywords": [
+    "nodejs",
+    "garage",
+    "door",
+    "automation",
+    "home",
+    "wireless",
+    "bluetooth"
+  ],
+  "author": "Seth Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/four43/garage-door-js/issues"
+  },
+  "homepage": "https://github.com/four43/garage-door-js"
+}
