@@ -1,8 +1,12 @@
 #!/bin/sh
 
-#NodeJS and NPM
-sudo apt-get install nodejs npm;
-
+#NodeJS and NPM - Packages weren't new enough
+sudo mkdir -p /opt/nodejs;
+cd /opt/nodejs;
+wget https://gist.github.com/raw/3245130/v0.10.24/node-v0.10.24-linux-arm-armv6j-vfp-hard.tar.gz;
+tar -xvf node-v0.10.24-linux-arm-armv6j-vfp-hard.tar.gz;
+ln -s /opt/nodejs/node-v0.10.24-linux-arm-armv6j-vfp-hard/bin/node /usr/local/sbin/;
+ln -s /opt/nodejs/node-v0.10.24-linux-arm-armv6j-vfp-hard/bin/npm /usr/local/sbin/;
 #pi-gpio dependencies
 cd ~
 mkdir opt

@@ -11,12 +11,18 @@ Garage Door Sensor - http://www.amazon.com/gp/product/B00CAIVNM4/ref=oh_aui_deta
 
 Raspberry Pi
 USB Wifi Adapter
+AC Adapter
 
 Wiring
 ------
 
 Devices
 -------
+Raspberry Pi
+
+ * Configure Wireless Network, with static IP.
+ * Compile NodeJS for ARM
+
 Garage Door Sensor
 
  * Has a state, we simply poll for data using the attached GPIO pins
